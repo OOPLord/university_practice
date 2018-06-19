@@ -13,6 +13,8 @@ public class Node {
     private Set<Integer> upperIndexes = new HashSet<>();
     private Set<Integer> downIndexes = new HashSet<>();
 
+    public Node() {}
+
     public Node(String name, String nClass) {
         this.name = name;
         this.nClass = nClass;
